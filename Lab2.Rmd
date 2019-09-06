@@ -8,8 +8,8 @@ output: html_document
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
-# Team name: 
-# The main goal: 
+# Team name: Super Stats
+# The main goal: Leanr stats and fuck shit up!
 
 # About me: Poramate Nakkirt (Pao)
 ```{r}
@@ -23,6 +23,7 @@ include_graphics("pao.ipg")
 # Something personal, I like Colorado becasue it is great for outdoor sports like hiking or skiing. Be socialized and do whatever fun. 
 # Feedback for Pao:
 
+<<<<<<< Updated upstream
 Part One: Individual About Me
 
 ```{r}
@@ -43,3 +44,30 @@ include_graphics("IMG_6878")
 #Another random of interest of mine is sports.  I would love to be able to use my knowledge of data science to perhaps report statistics for the NFL.  That's truly a "dream job."
 
 #Part Two: Feedback
+=======
+Team:  Super Stats
+Main Goal: Learn stats and fuck shit up
+
+
+
+#Jack Gilson:
+#*photo of me*
+
+#About me:
+#One question that I would like to know that could be solved using statistics is how long does it take an avaccado to ripen from when the day it is bought?
+
+#Six months after graduation I would like to be working at a job in my field somewhere in Colorado and be happy about it. Five years after my graduation I would like to be living somehere else maybe by an Ocean or maybe in Ireland.
+
+#I hope to not only have a successful career but to also be a successful real estate investor and retire young.
+
+#What I hope to gain from this class is a foundation of statistics and how to use R and progress towards getting my degree and getting a job.
+
+#What I hope to do outside of school this years is to go rock climbing and skiing as much as I can.
+
+#Feedback:
+
+
+
+
+
+>>>>>>> Stashed changes
