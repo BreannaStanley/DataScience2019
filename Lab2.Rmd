@@ -44,6 +44,7 @@ include_graphics("IMG_6878")
 #Another random of interest of mine is sports.  I would love to be able to use my knowledge of data science to perhaps report statistics for the NFL.  That's truly a "dream job."
 
 #Part Two: Feedback
+<<<<<<< Updated upstream
 =======
 Team:  Super Stats
 Main Goal: Learn stats and fuck shit up
@@ -68,6 +69,21 @@ Main Goal: Learn stats and fuck shit up
 
 
 
+# About Me: Breanna Stanley
 
+```{r  out.width = "20%"}
+library(knitr)
+include_graphics("Breanna.jpg")
+```
 
->>>>>>> Stashed changes
+# How many different areas of the workforce could I go into with my major?
+
+# Six months after graduation I would love to be in the work field making connections and getting to know the ins and the outs of the data science field. Five years later, I would like to see myself with an established career in a business or working in developing countries helping to educate and solve problems through statistics.
+
+# I hope that my greatest career accomplishment is that Im able to make a real impact on people’s lives through helping analyze reasearch or being part of finding an important solution to a big problem.
+
+# I am hoping to learn how to use the tools at my disposal that will help me solve problems or make managing large scale data easier. I also want to get a better feel for working in teams and becoming more comfortorable relying on other people.
+
+# Fun Fact: My favorite animal is a lion. I love how loyal they are to there pride and how they protect each other and do everything to as a team.
+
+# Feedback:
