@@ -1,0 +1,97 @@
+---
+title: "Lab2_DataSciteam"
+author: "Breanna, Poramate, Emma, Juanca, Jack"
+date: "9/4/2019"
+output: html_document
+------
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+# Team name: Super Stats
+# The main goal: Leanr stats and fuck shit up!
+
+# About me: Poramate Nakkirt (Pao)
+```{r}
+library(knitr)
+include_graphics("pao.ipg")
+```
+ # Question:  What specifically could I have the most chance to win the lottery in Colorado? 
+ # Fortunately, I have a gap of 6 months after my graduation. I am planning to travel in many countires like South Americas and Europe. I am very excited to do so. This may be my first time going outside the US. If possible in the next five years, I like to do more. 
+# My greatest carreer accomplishment will be the interdisciplinary professional on Data Science, Statistics, and Mathematics with receiving a high salary. 
+# This class is a great learning on the very popular material. I hope to learn a skill of R programming effectively and also basic skill of statistical concept. Another thing is to have an opportunity to solve a real-world problems using Data Science knowledge.
+# Something personal, I like Colorado becasue it is great for outdoor sports like hiking or skiing. Be socialized and do whatever fun. 
+# Feedback for Pao:
+# Breanna - Your section is nice. I like that you have a solid plan for after graduation. However, you didn't answer the second part of question 2, and I dont want that to effect your grade. The facts about why you like colorado give a insight into what you like to do.
+# Emma: Pao, the section about you wanting to travel was really interesting to read  and allowed me to get to know you.  You could possibly elaborate more on why you love Colorado because there are so many amazing things about this state! But, you describe your future plans very clearly.  Good job!
+
+<<<<<<< Updated upstream
+
+Part One: Individual About Me
+
+```{r}
+![ ](IMG_6878)
+```
+# About Me: Emma Sweeden
+
+My name is Emma Sweeden, I am a sophomore in Applied Mathematics hoping to focus in Data Science and Computer Science.
+
+I wonder how successful my major will be directly out of college. The answer to this could be found by analyzing data.
+
+I would love to have a nice paying job six months after college that I gain lots of experiene from.  After five years out of college, I would like to be managing people or a team working on computer science related projects. 
+
+I want to make a difference for women across the globe, so if I could do that somehow through my career, that would be a major success.
+
+I am hoping to add another coding language to the catalog I am currently building for myself and use my experience in R to help myself getting an internship or future job.  
+
+Another random of interest of mine is sports.  I would love to be able to use my knowledge of data science to perhaps report statistics for the NFL.  That's truly a "dream job."
+
+#Part Two: Feedback
+# Breanna - I like how you are wanting to make a difference for women through your work. I think that it would be beneficial to list a few sports that you like. Your answers are well thought out. 
+# Pao- That is interesting for your plan to bring the power of women to change the society in gerneral. It can start from you and knowledge of Data Sciecne might make a huge impact.
+
+=======
+Team:  Super Stats
+Main Goal: Learn stats and fuck shit up
+
+
+
+#Jack Gilson:
+#*photo of me*
+
+#About me:
+#One question that I would like to know that could be solved using statistics is how long does it take an avaccado to ripen from when the day it is bought?
+
+#Six months after graduation I would like to be working at a job in my field somewhere in Colorado and be happy about it. Five years after my graduation I would like to be living somehere else maybe by an Ocean or maybe in Ireland.
+
+#I hope to not only have a successful career but to also be a successful real estate investor and retire young.
+
+#What I hope to gain from this class is a foundation of statistics and how to use R and progress towards getting my degree and getting a job.
+
+#What I hope to do outside of school this years is to go rock climbing and skiing as much as I can.
+
+#Feedback:
+# From Emma - I like how concise and clear your answers are.  I think you could describe why you want to climb and go skiing as much as you can.  Overall, your writing is very clean and I like your future plans.  
+# Breanna - I like how you are very to the point and percise with your answers. I think it would be a good idea to add where you would like to be career wise 5 years after graduation. Your hope for outside of school gives insight into who you are and what you like to do.
+#Pao-Your answer about the plan after five years of graduation was great. I like ocean too! there might be a good place to live. Also, Skiing is one of my favorite, we can find sometimes there.
+
+# About Me: Breanna Stanley
+
+```{r  out.width = "20%"}
+library(knitr)
+include_graphics("Breanna.jpg")
+```
+
+# How many different areas of the workforce could I go into with my major?
+
+# Six months after graduation I would love to be in the work field making connections and getting to know the ins and the outs of the data science field. Five years later, I would like to see myself with an established career in a business or working in developing countries helping to educate and solve problems through statistics.
+
+# I hope that my greatest career accomplishment is that Im able to make a real impact on people’s lives through helping analyze reasearch or being part of finding an important solution to a big problem.
+
+# I am hoping to learn how to use the tools at my disposal that will help me solve problems or make managing large scale data easier. I also want to get a better feel for working in teams and becoming more comfortorable relying on other people.
+
+# Fun Fact: My favorite animal is a lion. I love how loyal they are to there pride and how they protect each other and do everything to as a team.
+
+# Feedback:
+#Emma - Breanna, I enjoy how you wrote your question, as that is a great and responsible question to ask.  I would suggest maybe adding more background to your question though.  But, I love your personal info about lions being your favorite animal, I think that is super cute.  Good job!
+#Pao-I like your plan about using Stat or Data Sci to help in developing countries. They still need a help from you to visualize and model the data and see something important! 
