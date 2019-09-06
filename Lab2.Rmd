@@ -49,17 +49,17 @@ Another random of interest of mine is sports.  I would love to be able to use my
 #Part Two: Feedback
 # Breanna - I like how you are wanting to make a difference for women through your work. I think that it would be beneficial to list a few sports that you like. Your answers are well thought out. 
 # Pao- That is interesting for your plan to bring the power of women to change the society in gerneral. It can start from you and knowledge of Data Sciecne might make a huge impact.
+# Jack - Good luck with the Applied Mathematics I never did great in any of my APPM courses.All the questions where answered and i like your motive.
 
 =======
-Team:  Super Stats
-Main Goal: Learn stats and fuck shit up
 
 
 
 #Jack Gilson:
-#*photo of me*
+include_graphics("jack.jpg")
 
 #About me:
+  #Im a third year student at CU my majors are economics and statistics and data science.
 #One question that I would like to know that could be solved using statistics is how long does it take an avaccado to ripen from when the day it is bought?
 
 #Six months after graduation I would like to be working at a job in my field somewhere in Colorado and be happy about it. Five years after my graduation I would like to be living somehere else maybe by an Ocean or maybe in Ireland.
@@ -74,6 +74,7 @@ Main Goal: Learn stats and fuck shit up
 # From Emma - I like how concise and clear your answers are.  I think you could describe why you want to climb and go skiing as much as you can.  Overall, your writing is very clean and I like your future plans.  
 # Breanna - I like how you are very to the point and percise with your answers. I think it would be a good idea to add where you would like to be career wise 5 years after graduation. Your hope for outside of school gives insight into who you are and what you like to do.
 #Pao-Your answer about the plan after five years of graduation was great. I like ocean too! there might be a good place to live. Also, Skiing is one of my favorite, we can find sometimes there.
+#Jack - First thing i noticed is that your a skier! Your question where well written and I hope you enjoy your 6 month gap. I noticed that you did not answer what you were going to do in 5 years.
 
 # About Me: Breanna Stanley
 
@@ -94,4 +95,5 @@ include_graphics("Breanna.jpg")
 
 # Feedback:
 #Emma - Breanna, I enjoy how you wrote your question, as that is a great and responsible question to ask.  I would suggest maybe adding more background to your question though.  But, I love your personal info about lions being your favorite animal, I think that is super cute.  Good job!
-#Pao-I like your plan about using Stat or Data Sci to help in developing countries. They still need a help from you to visualize and model the data and see something important! 
+#Pao-I like your plan about using Stat or Data Sci to help in developing countries. They still need a help from you to visualize and model the data and see something important!
+#Jack-Great response all questions were throughly answered and I enjoyed the fun fact about the lions.
