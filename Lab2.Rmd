@@ -16,37 +16,44 @@ knitr::opts_chunk$set(echo = TRUE)
 library(knitr)
 include_graphics("pao.ipg")
 ```
-# Question:  What specifically could I have the most chance to win the lottery in Colorado? 
-# Fortunately, I have a gap of 6 months after my graduation. I am planning to travel in many countires like South Americas and Europe. I am very excited to do so. This may be my first time going outside the US. If possible in the next five years, I like to do more. 
+ # Question:  What specifically could I have the most chance to win the lottery in Colorado? 
+ # Fortunately, I have a gap of 6 months after my graduation. I am planning to travel in many countires like South Americas and Europe. I am very excited to do so. This may be my first time going outside the US. If possible in the next five years, I like to do more. 
 # My greatest carreer accomplishment will be the interdisciplinary professional on Data Science, Statistics, and Mathematics with receiving a high salary. 
 # This class is a great learning on the very popular material. I hope to learn a skill of R programming effectively and also basic skill of statistical concept. Another thing is to have an opportunity to solve a real-world problems using Data Science knowledge.
 # Something personal, I like Colorado becasue it is great for outdoor sports like hiking or skiing. Be socialized and do whatever fun. 
 # Feedback for Pao:
+# Breanna - Your section is nice. I like that you have a solid plan for after graduation. However, you didn't answer the second part of question 2, and I dont want that to effect your grade. The facts about why you like colorado give a insight into what you like to do.
   #Hello pao! First thing I noticed about you're a skier as well! I liked all your responses you seems to have a solid direction in life and I'm jealous of your 6 month gap! Hope you have fun and get to ski in Europe. I noticed that you did not mention what your plans were for five years, nut other than that good response. -Jack
 
+From Emma: Pao, the section about you wanting to travel was really interesting to read  and allowed me to get to know you.  You could possibly elaborate more on why you love Colorado because there are so many amazing things about this state! But, you describe your future plans very clearly.  Good job!
+
 <<<<<<< Updated upstream
+
 Part One: Individual About Me
 
 ```{r}
-include_graphics("IMG_6878")
+![ ](IMG_6878)
 ```
 # About Me: Emma Sweeden
 
-#My name is Emma Sweeden, I am a sophomore in Applied Mathematics hoping to focus in Data Science and Computer Science.
+My name is Emma Sweeden, I am a sophomore in Applied Mathematics hoping to focus in Data Science and Computer Science.
 
-#I wonder how successful my major will be directly out of college. The answer to this could be found by analyzing data.
+I wonder how successful my major will be directly out of college. The answer to this could be found by analyzing data.
 
-#I would love to have a nice paying job six months after college that I gain lots of experiene from.  After five years out of college, I would like to be managing people or a team working on computer science related projects. 
+I would love to have a nice paying job six months after college that I gain lots of experiene from.  After five years out of college, I would like to be managing people or a team working on computer science related projects. 
 
-#I want to make a difference for women across the globe, so if I could do that somehow through my career, that would be a major success.
+I want to make a difference for women across the globe, so if I could do that somehow through my career, that would be a major success.
 
-#I am hoping to add another coding language to the catalog I am currently building for myself and use my experience in R to help myself getting an internship or future job.  
+I am hoping to add another coding language to the catalog I am currently building for myself and use my experience in R to help myself getting an internship or future job.  
 
-#Another random of interest of mine is sports.  I would love to be able to use my knowledge of data science to perhaps report statistics for the NFL.  That's truly a "dream job."
+Another random of interest of mine is sports.  I would love to be able to use my knowledge of data science to perhaps report statistics for the NFL.  That's truly a "dream job."
 
 #Part Two: Feedback
   #Great job on the questions all of your answers were though yet got ot the point. Good luck with the Applied Mathematics degree! -Jack
 <<<<<<< Updated upstream
+# Breanna - I like how you are wanting to make a difference for women through your work. I think that it would be beneficial to list a few sports that you like. Your answers are well thought out. 
+
+
 =======
 
 
@@ -69,7 +76,8 @@ include_graphics("jack.jpeg")
 #What I hope to do outside of school this years is to go rock climbing and skiing as much as I can.
 
 #Feedback:
-
+# From Emma - I like how concise and clear your answers are.  I think you could describe why you want to climb and go skiing as much as you can.  Overall, your writing is very clean and I like your future plans.  
+# Breanna - I like how you are very to the point and percise with your answers. I think it would be a good idea to add where you would like to be career wise 5 years after graduation. Your hope for outside of school gives insight into who you are and what you like to do.
 
 
 # About Me: Breanna Stanley
@@ -91,3 +99,4 @@ include_graphics("Breanna.jpg")
 
 # Feedback:
   # Breanna, your response were well written and answered the questions, I enjoyed the fun fact about lions. -Jack
+From Emma - Breanna, I enjoy how you wrote your question, as that is a great and responsible question to ask.  I would suggest maybe adding more background to your question though.  But, I love your personal info about lions being your favorite animal, I think that is super cute.  Good job!
