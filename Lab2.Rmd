@@ -9,7 +9,7 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 # Team name: Super Stats
-# The main goal: Leanr stats and fuck shit up!
+# The main goal: Learn R skills and effective teamwork
 
 # About me: Poramate Nakkirt (Pao)
 ```{r}
