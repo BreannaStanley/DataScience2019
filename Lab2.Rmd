@@ -16,12 +16,13 @@ knitr::opts_chunk$set(echo = TRUE)
 library(knitr)
 include_graphics("pao.ipg")
 ```
-# Question:  What specifically could I have the most chance to win the lottery in Colorado? 
-# Fortunately, I have a gap of 6 months after my graduation. I am planning to travel in many countires like South Americas and Europe. I am very excited to do so. This may be my first time going outside the US. If possible in the next five years, I like to do more. 
+ # Question:  What specifically could I have the most chance to win the lottery in Colorado? 
+ # Fortunately, I have a gap of 6 months after my graduation. I am planning to travel in many countires like South Americas and Europe. I am very excited to do so. This may be my first time going outside the US. If possible in the next five years, I like to do more. 
 # My greatest carreer accomplishment will be the interdisciplinary professional on Data Science, Statistics, and Mathematics with receiving a high salary. 
 # This class is a great learning on the very popular material. I hope to learn a skill of R programming effectively and also basic skill of statistical concept. Another thing is to have an opportunity to solve a real-world problems using Data Science knowledge.
 # Something personal, I like Colorado becasue it is great for outdoor sports like hiking or skiing. Be socialized and do whatever fun. 
 # Feedback for Pao:
+# Breanna - Your section is nice. I like that you have a solid plan for after graduation. However, you didn't answer the second part of question 2, and I dont want that to effect your grade. The facts about why you like colorado give a insight into what you like to do.
 
 <<<<<<< Updated upstream
 Part One: Individual About Me
@@ -44,6 +45,8 @@ include_graphics("IMG_6878")
 #Another random of interest of mine is sports.  I would love to be able to use my knowledge of data science to perhaps report statistics for the NFL.  That's truly a "dream job."
 
 #Part Two: Feedback
+# Breanna - I like how you are wanting to make a difference for women through your work. I think that it would be beneficial to list a few sports that you like. Your answers are well thought out. 
+
 <<<<<<< Updated upstream
 =======
 Team:  Super Stats
@@ -66,7 +69,7 @@ Main Goal: Learn stats and fuck shit up
 #What I hope to do outside of school this years is to go rock climbing and skiing as much as I can.
 
 #Feedback:
-
+# Breanna - I like how you are very to the point and percise with your answers. I think it would be a good idea to add where you would like to be career wise 5 years after graduation. Your hope for outside of school gives insight into who you are and what you like to do.
 
 
 # About Me: Breanna Stanley
