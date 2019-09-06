@@ -23,8 +23,7 @@ include_graphics("pao.ipg")
 # Something personal, I like Colorado becasue it is great for outdoor sports like hiking or skiing. Be socialized and do whatever fun. 
 # Feedback for Pao:
 # Breanna - Your section is nice. I like that you have a solid plan for after graduation. However, you didn't answer the second part of question 2, and I dont want that to effect your grade. The facts about why you like colorado give a insight into what you like to do.
-
-From Emma: Pao, the section about you wanting to travel was really interesting to read  and allowed me to get to know you.  You could possibly elaborate more on why you love Colorado because there are so many amazing things about this state! But, you describe your future plans very clearly.  Good job!
+# Emma: Pao, the section about you wanting to travel was really interesting to read  and allowed me to get to know you.  You could possibly elaborate more on why you love Colorado because there are so many amazing things about this state! But, you describe your future plans very clearly.  Good job!
 
 <<<<<<< Updated upstream
 
@@ -49,7 +48,7 @@ Another random of interest of mine is sports.  I would love to be able to use my
 
 #Part Two: Feedback
 # Breanna - I like how you are wanting to make a difference for women through your work. I think that it would be beneficial to list a few sports that you like. Your answers are well thought out. 
-
+# Pao- That is interesting for your plan to bring the power of women to change the society in gerneral. It can start from you and knowledge of Data Sciecne might make a huge impact.
 
 =======
 Team:  Super Stats
@@ -74,7 +73,7 @@ Main Goal: Learn stats and fuck shit up
 #Feedback:
 # From Emma - I like how concise and clear your answers are.  I think you could describe why you want to climb and go skiing as much as you can.  Overall, your writing is very clean and I like your future plans.  
 # Breanna - I like how you are very to the point and percise with your answers. I think it would be a good idea to add where you would like to be career wise 5 years after graduation. Your hope for outside of school gives insight into who you are and what you like to do.
-
+#Pao-Your answer about the plan after five years of graduation was great. I like ocean too! there might be a good place to live. Also, Skiing is one of my favorite, we can find sometimes there.
 
 # About Me: Breanna Stanley
 
@@ -94,4 +93,5 @@ include_graphics("Breanna.jpg")
 # Fun Fact: My favorite animal is a lion. I love how loyal they are to there pride and how they protect each other and do everything to as a team.
 
 # Feedback:
-From Emma - Breanna, I enjoy how you wrote your question, as that is a great and responsible question to ask.  I would suggest maybe adding more background to your question though.  But, I love your personal info about lions being your favorite animal, I think that is super cute.  Good job!
+#Emma - Breanna, I enjoy how you wrote your question, as that is a great and responsible question to ask.  I would suggest maybe adding more background to your question though.  But, I love your personal info about lions being your favorite animal, I think that is super cute.  Good job!
+#Pao-I like your plan about using Stat or Data Sci to help in developing countries. They still need a help from you to visualize and model the data and see something important! 
