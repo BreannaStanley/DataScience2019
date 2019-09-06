@@ -1,9 +1,25 @@
 ---
-title: "Lab2"
+title: "Lab2_DataSciteam"
+author: "Breanna, Poramate, Emma, Juanca, Jack"
+date: "9/4/2019"
 output: html_document
----
+------
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
+# Team name: 
+# The main goal: 
+
+# About me: Poramate Nakkirt (Pao)
+```{r}
+library(knitr)
+include_graphics("pao.ipg")
+```
+# Question:  
+# Fortunately, I have a gap of 6 months after my graduation. I am planning to travel in many countires like South Americas and Europe. I am very excited to do so. This may be my first time going outside the US. If possible in the next five years, I like to do more. 
+# My greatest carreer accomplishment will be the interdisciplinary professional on Data Science, Statistics, and Mathematics with receiving a high salary. 
+# This class is a great learning on the very popular material. I hope to learn a skill of R programming effectively and also basic skill of statistical concept. Another thing is to have an opportunity to solve a real-world problems using Data Science knowledge.
+# Something personal, I like Colorado becasue it is great for outdoor sports like hiking or skiing. Be socialized and do whatever fun. 
+# Feedback for Pao:
 
