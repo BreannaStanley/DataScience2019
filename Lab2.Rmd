@@ -27,6 +27,7 @@ include_graphics("pao.ipg")
 From Emma: Pao, the section about you wanting to travel was really interesting to read  and allowed me to get to know you.  You could possibly elaborate more on why you love Colorado because there are so many amazing things about this state! But, you describe your future plans very clearly.  Good job!
 
 <<<<<<< Updated upstream
+
 Part One: Individual About Me
 
 ```{r}
@@ -49,7 +50,7 @@ Another random of interest of mine is sports.  I would love to be able to use my
 #Part Two: Feedback
 # Breanna - I like how you are wanting to make a difference for women through your work. I think that it would be beneficial to list a few sports that you like. Your answers are well thought out. 
 
-<<<<<<< Updated upstream
+
 =======
 Team:  Super Stats
 Main Goal: Learn stats and fuck shit up
