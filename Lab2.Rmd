@@ -51,10 +51,6 @@ Another random of interest of mine is sports.  I would love to be able to use my
 # Breanna - I like how you are wanting to make a difference for women through your work. I think that it would be beneficial to list a few sports that you like. Your answers are well thought out. 
 
 
-=======
-Team:  Super Stats
-Main Goal: Learn stats and fuck shit up
-
 
 
 #Jack Gilson:
@@ -95,3 +91,4 @@ include_graphics("Breanna.jpg")
 
 # Feedback:
 From Emma - Breanna, I enjoy how you wrote your question, as that is a great and responsible question to ask.  I would suggest maybe adding more background to your question though.  But, I love your personal info about lions being your favorite animal, I think that is super cute.  Good job!
+
