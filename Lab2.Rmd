@@ -9,7 +9,7 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 # Team name: Super Stats
-# The main goal: Leanr stats and fuck shit up!
+# The main goal: Learn R skills as well as group collaboration.
 
 # About me: Poramate Nakkirt (Pao)
 ```{r}
@@ -22,6 +22,7 @@ include_graphics("pao.ipg")
 # This class is a great learning on the very popular material. I hope to learn a skill of R programming effectively and also basic skill of statistical concept. Another thing is to have an opportunity to solve a real-world problems using Data Science knowledge.
 # Something personal, I like Colorado becasue it is great for outdoor sports like hiking or skiing. Be socialized and do whatever fun. 
 # Feedback for Pao:
+  #Hello pao! First thing I noticed about you're a skier as well! I liked all your responses you seems to have a solid direction in life and I'm jealous of your 6 month gap! Hope you have fun and get to ski in Europe. I noticed that you did not mention what your plans were for five years, nut other than that good response. -Jack
 
 <<<<<<< Updated upstream
 Part One: Individual About Me
@@ -44,17 +45,19 @@ include_graphics("IMG_6878")
 #Another random of interest of mine is sports.  I would love to be able to use my knowledge of data science to perhaps report statistics for the NFL.  That's truly a "dream job."
 
 #Part Two: Feedback
+  #Great job on the questions all of your answers were though yet got ot the point. Good luck with the Applied Mathematics degree! -Jack
 <<<<<<< Updated upstream
 =======
-Team:  Super Stats
-Main Goal: Learn stats and fuck shit up
 
 
 
 #Jack Gilson:
-#*photo of me*
+  
+include_graphics("jack.jpeg")
 
 #About me:
+  #Im a third year student at CU and my majors are statistics and data science and  economics.
+  
 #One question that I would like to know that could be solved using statistics is how long does it take an avaccado to ripen from when the day it is bought?
 
 #Six months after graduation I would like to be working at a job in my field somewhere in Colorado and be happy about it. Five years after my graduation I would like to be living somehere else maybe by an Ocean or maybe in Ireland.
@@ -87,3 +90,4 @@ include_graphics("Breanna.jpg")
 # Fun Fact: My favorite animal is a lion. I love how loyal they are to there pride and how they protect each other and do everything to as a team.
 
 # Feedback:
+  # Breanna, your response were well written and answered the questions, I enjoyed the fun fact about lions. -Jack
