@@ -24,7 +24,7 @@ include_graphics("pao.ipg")
 # Feedback for Pao:
 # Breanna - Your section is nice. I like that you have a solid plan for after graduation. However, you didn't answer the second part of question 2, and I dont want that to effect your grade. The facts about why you like colorado give a insight into what you like to do.
 
-<<<<<<< Updated upstream
+
 Part One: Individual About Me
 
 ```{r}
@@ -47,7 +47,7 @@ include_graphics("IMG_6878")
 #Part Two: Feedback
 # Breanna - I like how you are wanting to make a difference for women through your work. I think that it would be beneficial to list a few sports that you like. Your answers are well thought out. 
 
-<<<<<<< Updated upstream
+
 =======
 Team:  Super Stats
 Main Goal: Learn stats and fuck shit up
