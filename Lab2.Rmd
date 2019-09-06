@@ -23,3 +23,23 @@ include_graphics("pao.ipg")
 # Something personal, I like Colorado becasue it is great for outdoor sports like hiking or skiing. Be socialized and do whatever fun. 
 # Feedback for Pao:
 
+Part One: Individual About Me
+
+```{r}
+include_graphics("IMG_6878")
+```
+# About Me: Emma Sweeden
+
+#My name is Emma Sweeden, I am a sophomore in Applied Mathematics hoping to focus in Data Science and Computer Science.
+
+#I wonder how successful my major will be directly out of college. The answer to this could be found by analyzing data.
+
+#I would love to have a nice paying job six months after college that I gain lots of experiene from.  After five years out of college, I would like to be managing people or a team working on computer science related projects. 
+
+#I want to make a difference for women across the globe, so if I could do that somehow through my career, that would be a major success.
+
+#I am hoping to add another coding language to the catalog I am currently building for myself and use my experience in R to help myself getting an internship or future job.  
+
+#Another random of interest of mine is sports.  I would love to be able to use my knowledge of data science to perhaps report statistics for the NFL.  That's truly a "dream job."
+
+#Part Two: Feedback
