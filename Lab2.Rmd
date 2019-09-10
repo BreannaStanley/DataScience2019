@@ -8,8 +8,18 @@ output: html_document
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
+<<<<<<< HEAD
 # Team name: Super Stats
 # The main goal: Learn R skills and effective teamwork
+=======
+```{r}
+library(knitr)
+include_graphics("team.jpg")
+```
+# Team name: Super Stats Bros
+# The main goal: Our teams main goal is to work together to learn R and how to use it for statistics.
+
+>>>>>>> master
 
 # About me: Poramate Nakkirt (Pao)
 ```{r}
