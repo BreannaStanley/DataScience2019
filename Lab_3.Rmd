@@ -1,0 +1,28 @@
+---
+title: "Lab3"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r include = FALSE}
+library(tidyverse)
+source("http://www.openintro.org/stat/data/cdc.R")
+cdc <- as_tibble(cdc)
+```
+
+**Overall Question**
+
+**Why the qestion is important**
+
+**Team's plot**
+
+**Answer to the question**
+
+**Recommendation**
+
+**Individual plots and findings**
+
+**Who did what**
