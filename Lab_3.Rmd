@@ -1,5 +1,7 @@
 ---
 title: "Lab3"
+authors:  "Breanna, Poramate, Emma, Juanca, Jack"
+date: "09/13/2019"
 output: html_document
 ---
 
@@ -37,3 +39,4 @@ ggplot(data = cdc) +
 * The ratio of people with poor or fair health to the people with good or better health is much lower in people who weigh between 100 and 250 pounds.
 
 **Who did what**
+*Breanna: I created a plot that showed weight and health are related. The data showed that people who were between 100 and 250 pounds tended to be healthier than those below or above. I used the bar geom and adjusted the fill of the data. I used the position adjustment to compare the proportions of people's health based off of their weight.
