@@ -27,6 +27,20 @@ cdc <- as_tibble(cdc)
 
 **Individual plots and findings**
 
+**Jack**
+```{r}
+library(tidyverse)
+source("http://www.openintro.org/stat/data/cdc.R")
+cdc <- as_tibble(cdc)
+
+ggplot(data = cdc) + 
+  geom_point(mapping = aes(x = age, y = wtdesire, color = gender), position = "jitter") + theme(aspect.ratio = 0.5)+
+  geom_smooth(method = lm,  mapping = aes(x = age, y = weight, color = gender))
+  
+
+```
+
+**idk who this is?**
 ```{r}
 ggplot(data = cdc) +
   geom_bar(mapping = aes(x = weight, fill = genhlth), position = "fill")
@@ -45,7 +59,12 @@ ggplot(data = cdc) + geom_boxplot(mapping = aes(x = genhlth, y = weight, color =
 **Findings for Poramate**
 As we can see from the graph, the length of weight between quartiles for sample people who have the health coverage tend to be slightly larger for each general health condition. For example, 25% of sample people who have a good health (between median and third quartile) is within the interval [170,200] compared to people without health coverage their weights lie in the interval [170,190]. However, the median of the data for each general health condition seems unchanged but other division might have a larger variation of the data.
 
+**Findings for Jack**
+I created a scatter plot that compares people dessired weight and their actual weight. From my individual graph you can see that throughout all ages there strong devsion between desire weight for male and females. While there is an expected devsion between genders The graph also shows that for each gender majority of adults where above their desired weight.
+
 **Who did what**
 *Breanna: I created a plot that showed weight and health are related. The data showed that people who were between 100 and 250 pounds tended to be healthier than those below or above. I used the bar geom and adjusted the fill of the data. I used the position adjustment to compare the proportions of people's health based off of their weight.
 
 *Poramate: I created a boxplot representing the relationship between a general health condition and measuring weight. The plot generally shows the density of the data depends on the value of weights, and also compute the location of min, first quartile, median, third quartile and max. I used the geom function by calling boxplot function and included a color of each general health condition. Since x,y-axis are hard to read, I adjusted the coordinate in order to easier to read. Finally, I used facet function to split the data into two different categories of health coverage to study the impact of this form on the weight.
+
+*Jack:*
