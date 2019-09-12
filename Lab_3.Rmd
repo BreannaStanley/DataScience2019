@@ -1,5 +1,7 @@
 ---
 title: "Lab3"
+authors:  "Breanna, Poramate, Emma, Juanca, Jack"
+date: "09/13/2019"
 output: html_document
 ---
 
@@ -25,4 +27,36 @@ cdc <- as_tibble(cdc)
 
 **Individual plots and findings**
 
+```{r}
+ggplot(data = cdc) +
+  geom_bar(mapping = aes(x = weight, fill = genhlth), position = "fill")
+```
+
+**Findings for Breanna**
+
+* The ratio of people with poor health to the people with good or better health drastically increases in people above 300 pounds
+* There are less people with good health or better who weigh under 100 pounds
+* The ratio of people with poor or fair health to the people with good or better health is much lower in people who weigh between 100 and 250 pounds.
+
+```{r}
+ggplot(data = cdc) + geom_boxplot(mapping = aes(x = genhlth, y = weight, color = genhlth))  +coord_flip() + facet_wrap(~hlthplan)
+```
+
+**Findings for Poramate**
+As we can see from the graph, the length of weight between quartiles for sample people who have the health coverage tend to be slightly larger for each general health condition. For example, 25% of sample people who have a good health (between median and third quartile) is within the interval [170,200] compared to people without health coverage their weights lie in the interval [170,190]. However, the median of the data for each general health condition seems unchanged but other division might have a larger variation of the data.
+
+```{r}
+ggplot(data = cdc) + 
+    geom_point(mapping = aes(x = height, y = weight, color = genhlth)) + geom_smooth(method = lm, mapping = aes(x = height, y = weight))
+```
+
+** Findings for Emma**
+
+* In general, people who are taller tend to be heavier, and those that are heavier tend to have poor health as shown by the differing colors on the graph.
+
 **Who did what**
+*Breanna: I created a plot that showed weight and health are related. The data showed that people who were between 100 and 250 pounds tended to be healthier than those below or above. I used the bar geom and adjusted the fill of the data. I used the position adjustment to compare the proportions of people's health based off of their weight.
+
+*Poramate: I created a boxplot representing the relationship between a general health condition and measuring weight. The plot generally shows the density of the data depends on the value of weights, and also compute the location of min, first quartile, median, third quartile and max. I used the geom function by calling boxplot function and included a color of each general health condition. Since x,y-axis are hard to read, I adjusted the coordinate in order to easier to read. Finally, I used facet function to split the data into two different categories of health coverage to study the impact of this form on the weight.
+
+* Emma: I created a point plot that showed the general trend of the data by using geomsmooth to plot a line through the data.  I also used the color aesthetic to show how health was affected by weight.  The plot generally showed that taller people to weigh more, and regardless of height, a greater weight results in poorer health. 
