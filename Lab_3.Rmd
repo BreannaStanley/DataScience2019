@@ -16,29 +16,27 @@ cdc <- as_tibble(cdc)
 ```
 
 **Overall Question**
+Does having healthcare have a positive effect on your health and if so by how much? Is government provided health care a worthwhile service to invest in?
 
 **Why the qestion is important**
+This question is important because the government budget is very limited and funds should be spent as efficiently as possible and if health care did not have a positive impact on citizens health resources should not be expended to frivolous things.
 
 **Team's plot**
+```{r}
+ggplot(data = cdc) + 
+  geom_point(mapping = aes(x = genhlth, y = weight, color = gender), position = "jitter") + theme(aspect.ratio = 0.5)+
+  facet_wrap(~ hlthplan, nrow = 1)
+
+
+```
 
 **Answer to the question**
+
+
 
 **Recommendation**
 
 **Individual plots and findings**
-
-**Jack**
-```{r}
-library(tidyverse)
-source("http://www.openintro.org/stat/data/cdc.R")
-cdc <- as_tibble(cdc)
-
-ggplot(data = cdc) + 
-  geom_point(mapping = aes(x = age, y = wtdesire, color = gender), position = "jitter") + theme(aspect.ratio = 0.5)+
-  geom_smooth(method = lm,  mapping = aes(x = age, y = weight, color = gender))
-  
-
-```
 
 **idk who this is?**
 ```{r}
@@ -69,14 +67,32 @@ ggplot(data = cdc) +
 * In general, people who are taller tend to be heavier, and those that are heavier tend to have poor health as shown by the differing colors on the graph.
 
 **Findings for Jack**
-I created a scatter plot that compares people dessired weight and their actual weight. From my individual graph you can see that throughout all ages there strong devsion between desire weight for male and females. While there is an expected devsion between genders The graph also shows that for each gender majority of adults where above their desired weight.
+I created a scatter plot that compares people desired weight and their actual weight. From my individual graph you can see that throughout all ages there are many that weigh significantly more than their desired weight, this trend is holds to both male and females. Around two thirds if not the majority of the data is well above their desired weight. For males as age increases the desired weight goes down but for females the desired weight increase a the same time age does. The weight distributions for both males and females are roughly the same although men tend to weigh a bit more than women as to be expected.This contributes to our team question by showing how most people are above their deired weight. Which supports the idea that if there was governmetn funded health care peoples weight could be closer to their desired weight.
+
+```{r}
+library(tidyverse)
+source("http://www.openintro.org/stat/data/cdc.R")
+cdc <- as_tibble(cdc)
+
+ggplot(data = cdc) + 
+  geom_point(mapping = aes(x = age, y = weight, color = gender), position = "jitter") + theme(aspect.ratio = 0.5)+
+  geom_smooth(method = lm,  mapping = aes(x = age, y = wtdesire))+
+  facet_wrap(~ gender, nrow = 1)
+  
+
+```
+
 
 **Who did what**
-*Breanna: I created a plot that showed weight and health are related. The data showed that people who were between 100 and 250 pounds tended to be healthier than those below or above. I used the bar geom and adjusted the fill of the data. I used the position adjustment to compare the proportions of people's health based off of their weight.
+*Breanna: 
+I created a plot that showed weight and health are related. The data showed that people who were between 100 and 250 pounds tended to be healthier than those below or above. I used the bar geom and adjusted the fill of the data. I used the position adjustment to compare the proportions of people's health based off of their weight.
 
-*Poramate: I created a boxplot representing the relationship between a general health condition and measuring weight. The plot generally shows the density of the data depends on the value of weights, and also compute the location of min, first quartile, median, third quartile and max. I used the geom function by calling boxplot function and included a color of each general health condition. Since x,y-axis are hard to read, I adjusted the coordinate in order to easier to read. Finally, I used facet function to split the data into two different categories of health coverage to study the impact of this form on the weight.
+*Poramate: 
+I created a boxplot representing the relationship between a general health condition and measuring weight. The plot generally shows the density of the data depends on the value of weights, and also compute the location of min, first quartile, median, third quartile and max. I used the geom function by calling boxplot function and included a color of each general health condition. Since x,y-axis are hard to read, I adjusted the coordinate in order to easier to read. Finally, I used facet function to split the data into two different categories of health coverage to study the impact of this form on the weight.
 
-*Jack:*
+*Jack:
+I collaborated with my group members to develop our team questions and graphs and tried to make our project applicable to a real life scenario. I created a facet wrap scatter plot to contrast the average desired weight against people's actual weight while separating it by gender. I did this by starting with a scatter plot and layered a trendline through the data of people's weights creating a graph that compares people's actual weight to their desired weight depending on the given age. Then I used the facet_wrap to show the differences  between men and women. 
 
 
-* Emma: I created a point plot that showed the general trend of the data by using geomsmooth to plot a line through the data.  I also used the color aesthetic to show how health was affected by weight.  The plot generally showed that taller people to weigh more, and regardless of height, a greater weight results in poorer health. 
+*Emma: 
+I created a point plot that showed the general trend of the data by using geomsmooth to plot a line through the data.  I also used the color aesthetic to show how health was affected by weight.  The plot generally showed that taller people to weigh more, and regardless of height, a greater weight results in poorer health. 
