@@ -1,0 +1,21 @@
+---
+title: "Lab 4"
+authors: "Breanna, Poramate, Emma, Juanca, Jack"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+### Overall Questions
+
+### Team's Plots and Answers
+
+### Team's Recommendation
+
+### Team's Plots and Answers to "Preliminary" Question
+
+### Individual Findings and Plots
+
+### Who did what
