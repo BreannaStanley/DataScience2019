@@ -7,19 +7,31 @@ output: html_document
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
-```{r}
+
+```{r, include = FALSE}
 library(tidyverse)
 babies <- read_csv("https://raw.githubusercontent.com/ervance1/Sp2018-Data-Science-repo/master/babies2a.dat")
 babies <- rename(babies, bwtoz = `bwt/oz`) #renaming `bwt/oz` because the "/" sign requires special care
 ```
 
 ### Overall Questions
+1. Does the data provide evidence supporting the Surgeon General's assertion that mothers who smoke have increased rates of premature delivery(before 270 days)?
+
+2. Does the data provide evidence supporting the Surgeon General's assertion that the newborns of mothers who smoke have smaller birth weights at every gestational age(number of days into pregnancy when child is born)?
 
 ### Team's Plots and Answers
 
 ### Team's Recommendation
 
 ### Team's Plots and Answers to "Preliminary" Question
+
+**Preliminary Question**
+
+Which variables are similar between smokers and nonsmokers? Which are different?
+
+**Plots**
+
+**Answers**
 
 ### Individual Findings and Plots
 
