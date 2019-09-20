@@ -27,7 +27,7 @@ babies <- rename(babies, bwtoz = `bwt/oz`) #renaming `bwt/oz` because the "/" si
 
 **Preliminary Question**
 
-Which variables are similar between smokers and nonsmokers? Which are different?
+* Which variables are similar between smokers and nonsmokers? Which are different?
 
 **Plots**
 
@@ -35,4 +35,20 @@ Which variables are similar between smokers and nonsmokers? Which are different?
 
 ### Individual Findings and Plots
 
+**Breanna**
+
+```{r, echo = FALSE, warning = FALSE}
+ggplot(data = babies) +
+  geom_jitter(mapping = aes(x = Premature, y = med, color = smoke)) +
+  facet_wrap(~mrace)
+```
+
+Findings:
+
+* The amount of mothers who smoke during the pregnancy is greater in white and black mothers.
+* The babies that are born premature have a majority of mothers who smoked while pregnant.
+* The majority of mothers who smoked had lower educations.
+
 ### Who did what
+
+* Breanna: I created a jitter plot showing the relationship between babies who were born premature and the mothers education. I used the facet_wrap() function to show how the data differed around the mothers race. The data showed that the mothers who smoked while pregnant were mostly less educated and white or black. I used the jitter function and adjusted the color to show what babies had mothers who smoked while pregnant. 
