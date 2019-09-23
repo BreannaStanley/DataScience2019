@@ -23,7 +23,7 @@ babies <- rename(babies, bwtoz = `bwt/oz`) #renaming `bwt/oz` because the "/" si
 
 **Question #1 Plot**
 
-```{r}
+```{r, warning = FALSE, echo = FALSE}
 ggplot(data = babies) +
   geom_jitter(mapping = aes(x = smoke, y = Premature))
 ```
@@ -62,10 +62,10 @@ Findings:
 
 **Emma**
 
-```{r, echo = FALSE}
+```{r, echo = FALSE, warning = FALSE}
 ggplot(data = babies) +
   geom_point(mapping=aes(x = gestation, y = bwtoz, color = smoke))
-  ```
+```
 
 Findings:
 
@@ -73,8 +73,7 @@ Findings:
 * Smoking tends to cause a shorter gestational period
 * Smoking can cause premature births and higher health risks to the newborn
 
-
 ### Who did what
 
 * Breanna: I created a jitter plot showing the relationship between babies who were born premature and the mothers education. I used the facet_wrap() function to show how the data differed around the mothers race. The data showed that the mothers who smoked while pregnant were mostly less educated and white or black. I used the jitter function and adjusted the color to show what babies had mothers who smoked while pregnant. 
-* Emma: I created a scatter plot to show the relationship between gestational period, birth weight in ounces, and whether the mother smoked or not.  I used color = smoke to show the third variable of smoking so that I could see how the mother smoking affected the other two variables.  The data showed that gestation and birth weight were positively correlated and that mothers who still currently smoke tend to have earlier births. which can affect the newborn's birth weight and subsequently, their health. 
+* Emma: I created a scatter plot to show the relationship between gestational period, birth weight in ounces, and whether the mother smoked or not.  I used color = smoke to show the third variable of smoking so that I could see how the mother smoking affected the other two variables.  The data showed that gestation and birth weight were positively correlated and that mothers who still currently smoke tend to have earlier births. which can affect the newborn's birth weight and subsequently, their health.
