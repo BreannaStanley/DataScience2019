@@ -21,6 +21,17 @@ babies <- rename(babies, bwtoz = `bwt/oz`) #renaming `bwt/oz` because the "/" si
 
 ### Team's Plots and Answers
 
+**Question #1 Plot**
+
+```{r}
+ggplot(data = babies) +
+  geom_jitter(mapping = aes(x = smoke, y = Premature))
+```
+
+**Question #1 Answer:**
+
+The data shows that mothers who smoke have slightly increased rates of premature delivery, therefore supporting the Surgeon Generals assertion. 
+
 ### Team's Recommendation
 
 ### Team's Plots and Answers to "Preliminary" Question
