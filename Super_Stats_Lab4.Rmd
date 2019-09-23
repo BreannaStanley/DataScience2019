@@ -28,11 +28,25 @@ ggplot(data = babies) +
   geom_jitter(mapping = aes(x = smoke, y = Premature))
 ```
 
+
 **Question #1 Answer:**
 
 The data shows that mothers who smoke have slightly increased rates of premature delivery, therefore supporting the Surgeon Generals assertion. 
 
+**Question #2 Plot**
+```{r team}
+ggplot(data = babies)+
+    geom_smooth(mapping = aes(x = gestation, y =bwtoz),show.legend = FALSE)+
+    facet_wrap(~time)+
+    ggtitle("Birth Weight vs. When Mothers Quit")
+
+```
+
+**Question #2 Answer:**
+The Surgeon General's assertion for the newborns of mothers who smoke have smaller birth weights at every gestational age is correct. Our graph shows the comparison between the birth weights of the people who still smoke and the people who dont smoke. We found that the weights for smokers births are all below the birth weights of those who dont smoke.
+
 ### Team's Recommendation
+Our team's recommendation is that we should create a PSA that shows the effects smoking can have on their child's birthweight and risk of premature birth. We would like to suggest a policy that would ban the sale of tabacco products to pregnant women.
 
 ### Team's Plots and Answers to "Preliminary" Question
 
@@ -40,7 +54,6 @@ The data shows that mothers who smoke have slightly increased rates of premature
 
 * Which variables are similar between smokers and nonsmokers? Which are different?
 
-**Plots**
 
 **Answers**
 
@@ -73,7 +86,26 @@ Findings:
 * Smoking tends to cause a shorter gestational period
 * Smoking can cause premature births and higher health risks to the newborn
 
+**Jack**
+Findings:
+I found out that there were a lot more data points for people who have never smoked because the line is longer than all the other categories. I found that on the 270th day, the expect day of birth, people who have not smoked have a higher birth weight than those who smoked. Although the difference is small on the 270th day if the smoker's baby was born premature. The weight goes down much quicker than those who did not smoke. We can tell this by the slope of the line before and after the 270th day. Those who smoke have a much steeper slope proir to the 270th day. 
+
+```{r Jack}
+ggplot(data = babies)+
+    geom_smooth(mapping = aes(x = gestation, y =bwtoz),show.legend = FALSE)+
+    facet_wrap(~number)+
+    theme(aspect.ratio = 0.5)+
+    ggtitle("Birth weight and Cigs Smoked")+
+    coord_fixed()
+
+```
+
+
 ### Who did what
 
-* Breanna: I created a jitter plot showing the relationship between babies who were born premature and the mothers education. I used the facet_wrap() function to show how the data differed around the mothers race. The data showed that the mothers who smoked while pregnant were mostly less educated and white or black. I used the jitter function and adjusted the color to show what babies had mothers who smoked while pregnant. 
-* Emma: I created a scatter plot to show the relationship between gestational period, birth weight in ounces, and whether the mother smoked or not.  I used color = smoke to show the third variable of smoking so that I could see how the mother smoking affected the other two variables.  The data showed that gestation and birth weight were positively correlated and that mothers who still currently smoke tend to have earlier births. which can affect the newborn's birth weight and subsequently, their health.
+* Breanna: 
+    I created a jitter plot showing the relationship between babies who were born premature and the mothers education. I used the facet_wrap() function to show how the data differed around the mothers race. The data showed that the mothers who smoked while pregnant were mostly less educated and white or black. I used the jitter function and adjusted the color to show what babies had mothers who smoked while pregnant. 
+* Emma: 
+I created a scatter plot to show the relationship between gestational period, birth weight in ounces, and whether the mother smoked or not.  I used color = smoke to show the third variable of smoking so that I could see how the mother smoking affected the other two variables.  The data showed that gestation and birth weight were positively correlated and that mothers who still currently smoke tend to have earlier births. which can affect the newborn's birth weight and subsequently, their health. 
+*Jack:
+I created a line graph that comapres the baby's birthweight to the amount of days it was carried. I decied to use a facet wrap for the number variable to show if there was any difference between birth weight and amount of cigs smoked per day  and  I recorded my findings. I help create the team graph for the second question and answered our team questions. I also helped think of reccomenadtions for our findings. 
